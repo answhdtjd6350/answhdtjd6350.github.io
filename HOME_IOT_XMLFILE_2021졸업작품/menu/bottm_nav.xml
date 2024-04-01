@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_action_hi"
+        android:title="" />
+    <item
+        android:id="@+id/menu_cctv"
+        android:title=""
+        android:icon="@drawable/ic_action_hiii"/>
+    <item
+        android:id="@+id/menu_onoff"
+        android:icon="@drawable/ic_action_hii"
+        android:title="" />
+    <item
+        android:id="@+id/menu_dailykit"
+        android:icon="@drawable/ic_action_hiiii"
+        android:title="" />
+    <item
+        android:id="@+id/menu_option"
+        android:title=""
+        android:icon="@drawable/ic_action_hiiiii"/>
+</menu>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#90C7A0CC"
+            android:drawableLeft="@drawable/ic_baseline_emoji_objects_24"
+            android:text=" ioT 전원제어"
+            android:paddingLeft="15sp"
+            android:fontFamily="@font/answhdtjd"
+            android:textColor="#9A71AF"
+            android:textSize="40sp" />
+
+        <Switch
+            android:id="@+id/sw_outingmode"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#90C7A0CC"
+            android:paddingLeft="20sp"
+            android:paddingRight="20dp"
+            android:fontFamily="@font/answhdtjd"
+            android:text="외출모드"
+            android:layout_marginTop="20dp"
+            android:textColor="#9A71AF"
+            android:track="@drawable/switch_track_selector"
+            android:thumb="@drawable/switch_thumb"
+            android:textSize="23sp"
+            android:switchMinWidth="60sp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#90C7A0CC"
+            android:paddingLeft="20sp"
+            android:fontFamily="@font/answhdtjd"
+            android:text="전등"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:textColor="#9A71AF"
+            android:textSize="23sp" />
+
+        <Switch
+            android:id="@+id/sw_porch"
+            android:track="@drawable/switch_track_selector"
+            android:thumb="@drawable/switch_thumb"
+            android:layout_marginTop="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="20sp"
+            android:layout_height="47dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/answhdtjd"
+            android:switchMinWidth="60sp"
+            android:text="현관등" />
+
+        <Switch
+            android:id="@+id/sw_kitchen"
+            android:track="@drawable/switch_track_selector"
+            android:thumb="@drawable/switch_thumb"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20sp"
+            android:paddingRight="20dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:fontFamily="@font/answhdtjd"
+            android:switchMinWidth="60sp"
+            android:text="주방" />
+
+        <Switch
+            android:id="@+id/sw_inner"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:paddingLeft="20sp"
+            android:track="@drawable/switch_track_selector"
+            android:thumb="@drawable/switch_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:paddingRight="20dp"
+            android:fontFamily="@font/answhdtjd"
+            android:switchMinWidth="60sp"
+            android:text="안방" />
+
+        <Switch
+            android:id="@+id/sw_toilet"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:track="@drawable/switch_track_selector"
+            android:thumb="@drawable/switch_thumb"
+            android:paddingLeft="20sp"
+            android:paddingRight="20dp"
+            android:textSize="20sp"
+            android:layout_height="47dp"
+            android:fontFamily="@font/answhdtjd"
+            android:switchMinWidth="60sp"
+            android:text="화장실" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20sp"
+            android:background="#90C7A0CC"
+            android:fontFamily="@font/answhdtjd"
+            android:gravity="center_vertical"
+            android:text="전자제품"
+            android:textColor="#9A71AF"
+            android:textSize="23sp" />
+
+        <Switch
+            android:id="@+id/sw_tv"
+            android:fontFamily="@font/answhdtjd"
+            android:track="@drawable/switch_track_selector"
+            android:thumb="@drawable/switch_thumb"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:paddingLeft="20sp"
+            android:textColor="@color/black"
+            android:paddingRight="20dp"
+            android:textSize="20sp"
+            android:layout_height="47dp"
+            android:switchMinWidth="60sp"
+            android:text="TV" />
+
+        <Switch
+            android:id="@+id/sw_aircon"
+            android:fontFamily="@font/answhdtjd"
+            android:paddingLeft="20sp"
+            android:paddingRight="20dp"
+            android:textSize="20sp"
+            android:track="@drawable/switch_track_selector"
+            android:thumb="@drawable/switch_thumb"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:switchMinWidth="60sp"
+            android:text="에어컨" />
+
+        <Switch
+            android:id="@+id/sw_airclean"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20sp"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="47dp"
+            android:paddingRight="20dp"
+            android:track="@drawable/switch_track_selector"
+            android:thumb="@drawable/switch_thumb"
+            android:fontFamily="@font/answhdtjd"
+            android:switchMinWidth="60sp"
+            android:text="공기청정기" />
+
+        <Switch
+            android:id="@+id/sw_induction"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20sp"
+            android:layout_width="match_parent"
+            android:textSize="20sp"
+            android:layout_height="47dp"
+            android:paddingRight="20dp"
+            android:track="@drawable/switch_track_selector"
+            android:thumb="@drawable/switch_thumb"
+            android:fontFamily="@font/answhdtjd"
+            android:switchMinWidth="60sp"
+            android:text="인덕션" />
+
+
+    </LinearLayout>
+</ScrollView>
